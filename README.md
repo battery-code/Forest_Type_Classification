@@ -23,12 +23,14 @@ Target: Cover_Type (1 to 7).
 The dataset has categorical features (e.g., Wilderness Area, Soil Type) that were one-hot encoded for model training.
 
 ### Model Comparison
-Model	                Accuracy (%)	F1 Score (%)	Notes
-Logistic Regression	    68	          68	        Baseline model
-Random Forest	          95	          95	        Strong results without tuning
-XGBoost	                93	          93	        Required tuning to improve
-SVM	                    63	          63	        Very slow; had to downsample
-LightGBM	              96	          96	        Best performer; fast and efficient
+| **Model**              | **Accuracy (%)** | **F1 Score (%)** | **Notes**                             |
+|------------------------|------------------|------------------|---------------------------------------|
+| Logistic Regression    | 68               | 68               | Baseline model                        |
+| Random Forest          | 95.5             | 95.5             | Strong results without tuning         |
+| XGBoost                | 93               | 93               | Required tuning to improve            |
+| SVM                    | 63               | 63               | Very slow; had to downsample          |
+| LightGBM               | **96.6**         | **96.6**         | Best performer; fast and efficient    |
+
 
 ### Conclusion:
 LightGBM outperformed all other models with an accuracy of 96.6%. Its faster training time and better performance make it the preferred model for this dataset.
