@@ -21,6 +21,7 @@ Dataset: Forest Type dataset with 581,012 observations and 54 features.
 Features: Elevation, Slope, Soil Type, Wilderness Area, and others.
 Target: Cover_Type (1 to 7).
 The dataset has categorical features (e.g., Wilderness Area, Soil Type) that were one-hot encoded for model training.
+Link to Dataset: https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset
 
 ### Model Comparison
 | **Model**              | **Accuracy (%)** | **F1 Score (%)** | **Notes**                             |
